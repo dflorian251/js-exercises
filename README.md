@@ -1,2 +1,3 @@
 # js-exercises
-Javascript Exercises for The Odin Project
+Javascript Exercises from The Odin Project
+
