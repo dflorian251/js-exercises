@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Page Title</title>
+</head>
+<body>
+  <script>
+    function add7(n) {
+      return n + 7
+    }
+
+    function multiply (n1, n2){
+      return n1 * n2
+    }
+
+    function capitalize (word) {
+      let first_letter = word.slice(0,1)
+      let rest = word.slice(1, word.length)
+  
+      first_letter = first_letter.toUpperCase()
+      rest = rest.toLowerCase();
+
+      return first_letter.concat(rest);
+    
+    }
+
+    function lastLetter(text) {
+      return text.charAt(text.length-1)
+    }
+
+    console.log(add7(3))
+    console.log(multiply(3,4))
+    console.log(capitalize("botHH"))
+    console.log(lastLetter("abcd"))
+
+  </script>
+</body>
+</html>
